@@ -1,0 +1,14 @@
+Basisinfos:
+https://towardsdatascience.com/the-good-way-to-structure-a-python-project-d914f27dfcc9
+
+Once you have installed all the packages that your project needs, you can run:
+
+pip freeze > requirements.txt
+
+pip freeze is “freezing” all the packages/versions currently being used. Then you are piping (i.e., saving) the output of pip freeze via a txt file.
+
+Other people using your program will then run:
+
+pip install -r requirements.txt
+
+and be able to install all the packages and the correct versions in one go. Amazing right? 🚀
